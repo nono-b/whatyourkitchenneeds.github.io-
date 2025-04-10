@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Your Kitchen Needs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        header {
+            background-color: #0c1f3f;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background-color: #e0e0e0;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero button {
+            background-color: #0c1f3f;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .categories {
+            padding: 2rem;
+            background-color: #f5f5f5;
+        }
+
+        .categories h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+        }
+
+        .category {
+            background-color: white;
+            padding: 1rem;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+
+        .promotions, .testimonials {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .footer {
+            background-color: #0c1f3f;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>What Your Kitchen Needs</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Promotions</a>
+            <a href="#">Reviews</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Everything Your Kitchen Deserves</h1>
+        <p>Shop high-quality kitchen equipment tailored for your needs.</p>
+        <button>Browse Categories</button>
+    </section>
+
+    <section class="categories">
+        <h2>Shop by Category</h2>
+        <div class="category-grid">
+            <div class="category">Cookers</div>
+            <div class="category">Blenders</div>
+            <div class="category">Utensils</div>
+            <div class="category">Pots & Pans</div>
+            <div class="category">Appliances</div>
+            <div class="category">Bakeware</div>
+        </div>
+    </section>
+
+    <section class="promotions">
+        <h2>Current Promotions</h2>
+        <p>Up to 30% off select kitchen equipment!</p>
+    </section>
+
+    <section class="testimonials">
+        <h2>Customer Reviews</h2>
+        <p>"Amazing quality and fast delivery!"</p>
+        <p>"Everything I needed for my new kitchen, all in one place."</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 What Your Kitchen Needs | Contact: info@whatyourkitchenneeds.com</p>
+    </footer>
+
+</body>
+</html>
